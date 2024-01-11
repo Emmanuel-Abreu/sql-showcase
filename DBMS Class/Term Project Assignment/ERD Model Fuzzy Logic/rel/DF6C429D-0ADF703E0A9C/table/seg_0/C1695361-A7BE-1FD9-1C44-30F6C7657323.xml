@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1695361-A7BE-1FD9-1C44-30F6C7657323" name="ARTIST">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>B46C62B0-F3FE-4B0F-186E-010EE3C8B65F</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Art_ArtistID_PK" id="AF006F79-DFAD-3EB7-F0F8-D141B5951239">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>3CC2C022-EA4E-3730-5E78-96C3CDBC981C</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Art_FirstName" id="EE1A8796-61DB-C40D-3D75-2387ADF5A94A">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>24B4B84E-152E-6F7E-C6E2-1AD3056C2E12</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Art_LastName" id="40C29EE5-C21C-8A5A-2887-3AA02926E1EB">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>32528BAB-393F-D37F-8DEE-224022BD5F55</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12F6178C-C8B9-8F83-CBDC-88298C9AF4B7" name="ARTIST_PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>56598343-0BDE-E764-A9FF-953D160FE8B8</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF006F79-DFAD-3EB7-F0F8-D141B5951239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="83CDE89D-7E40-A7F4-2A7A-E675B9C13CF4">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-05 23:46:12 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

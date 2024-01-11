@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="382DDEA8-3149-A8DB-85DB-71E66932F674" name="STATION">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>D0A00581-ADA2-2C15-674F-4651C84CA52C</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stn_StationID_PK" id="CE64912F-9902-97C1-CCD0-409508A3FBB3">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>291112C0-86E9-75FB-C280-C2F8E55C9A8E</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<reference>true</reference>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stn_Name" id="5E522C47-EB7F-CA48-0803-42075B5E331E">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>CACF6880-6132-966C-674D-5655E3AFA408</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stn_Region" id="3A5EA221-6EDA-242A-FFF4-EAAF34B1A3F6">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>DFF887BA-E5B6-5C5C-D81A-8CCA848DCA27</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stn_Frequency" id="58C7721C-BCA3-0080-C45D-A32248023C5D">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>02A8CA9D-AA04-FEF6-6516-14A90D1747F4</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stn_Type" id="C8D41FD3-72F2-5655-915D-3789D09FE7DD">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>2D08A2E1-28DC-96C3-5837-4E716616B007</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<constraintName>CH_INH_STATION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<listOfValues>
+<valueDef value="INTERNET_STATION" description="entity INTERNET_STATION"/>
+</listOfValues>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="823DC4EC-1BB6-7CD4-CB44-9CB4B81F5B6B" name="STATION_PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>C818AE7D-8DE4-0727-4167-25B92A6FE96A</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE64912F-9902-97C1-CCD0-409508A3FBB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

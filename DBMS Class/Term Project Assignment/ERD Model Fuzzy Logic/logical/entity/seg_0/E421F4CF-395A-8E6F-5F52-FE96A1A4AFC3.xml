@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E421F4CF-395A-8E6F-5F52-FE96A1A4AFC3" name="SEGMENT">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 16:03:28 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Seg_SegmentID_PK" id="26182594-EF8B-96CC-CFF4-D71D4EAAB820">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 17:25:28 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seg_SegmentNum" id="997E292B-FCE0-434D-E12C-B242D5F8E5F0">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 17:25:59 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seg_Name" id="40D1331C-0FBD-5AD5-CBDF-3D3AA359ED28">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 17:26:34 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Play_PlaylistID_PK" id="BDE5F348-37F7-36C4-9BCC-BE4A0444DDE1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 17:41:45 UTC</createdTime>
+<generatorID>C3C9A2BE-B528-13A0-5A04-C102EBA2C9A9</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<referedAttribute>CF2F65B9-9ABE-3FFC-BCF2-407FA5F957CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24FEDFAE-9A88-117F-2298-18C35273F212" name="SEGMENT PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 17:25:54 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26182594-EF8B-96CC-CFF4-D71D4EAAB820</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

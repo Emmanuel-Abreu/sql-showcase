@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="169D1B2C-0525-2BE6-F2BD-45FF33E045FD" name="SEGMENT">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>E421F4CF-395A-8E6F-5F52-FE96A1A4AFC3</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seg_SegmentID_PK" id="2F4F8D7D-D702-DFE0-AE3E-38E1F0F9CCBD">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>26182594-EF8B-96CC-CFF4-D71D4EAAB820</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seg_SegmentNum" id="DD0DA034-3672-C5AB-CC51-16831FC10F96">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>997E292B-FCE0-434D-E12C-B242D5F8E5F0</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seg_Name" id="C1B07D64-AB54-B88B-794A-88EE8E3F080E">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>40D1331C-0FBD-5AD5-CBDF-3D3AA359ED28</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAYLIST_Play_PlaylistID_PK" id="9F47FCD4-6F80-436D-7A0F-F2E062494DAE">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>BDE5F348-37F7-36C4-9BCC-BE4A0444DDE1</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FFB32FD-CE27-E468-53A4-042F751E3200" referredColumn="A2BE4F0C-ABF2-AB6C-B7A4-19C210C093F7"/>
+</associations>
+</Column>
+<Column name="AD_Ad_AdID_PK" id="A36E3AF4-581D-A821-785E-42496E9108C8">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>EDE5E43C-1FD9-6536-ED80-868B2273935A</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0994FAB7-E18E-785A-4556-34C0C5B7C65F" referredColumn="2CE41511-4C96-CDF4-B89B-CB4AF17F5AD5"/>
+</associations>
+</Column>
+<Column name="SONG_Song_SongID_PK" id="2C4AC234-8B68-034B-5EB0-2F6003601E02">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>578DA09B-9188-5A00-F7D3-7C53E7186F86</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E1D3C03-D858-B560-BE53-182FD055C32E" referredColumn="95F6A5E3-36B9-1A5F-4CAF-B30B057620D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B576782B-568B-5240-3B1A-0348A58CDF6A" name="SEGMENT_PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>24FEDFAE-9A88-117F-2298-18C35273F212</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4F8D7D-D702-DFE0-AE3E-38E1F0F9CCBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1181C289-7B80-F0D6-EFCF-5DA6D10B62F2" name="SEGMENT_PLAYLIST_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>C3C9A2BE-B528-13A0-5A04-C102EBA2C9A9</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F47FCD4-6F80-436D-7A0F-F2E062494DAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDCBCB73-1789-2E4F-0657-2DAC277ABBED" name="SEGMENT_AD_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>579EA98E-3051-3184-653C-481F901E9928</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36E3AF4-581D-A821-785E-42496E9108C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7257C439-B024-716C-C54E-E2DCDC7FCC97" name="SEGMENT_SONG_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>685032BD-7FA3-B937-00C9-A469CA9849C3</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C4AC234-8B68-034B-5EB0-2F6003601E02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

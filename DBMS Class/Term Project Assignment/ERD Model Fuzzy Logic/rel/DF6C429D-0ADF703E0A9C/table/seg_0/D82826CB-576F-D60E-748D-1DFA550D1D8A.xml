@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D82826CB-576F-D60E-748D-1DFA550D1D8A" name="COMPANYv1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>2940C6D5-1906-4053-4B95-7392CF29E550</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<ordsAlias>companyv2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Com_CompanyID_PK" id="259D7293-D1D6-8B22-185C-A813FBBBAC7E">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>8879B5F4-78A9-C22E-903E-F5481B31E0C2</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Com_Name" id="46357F77-4686-1846-B75B-178EC91407B6">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>2F8EC42C-F0A2-77A2-82BA-306E457B24B4</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFEB251A-2DB2-9FF4-675F-F1FEC10F5A75" name="COMPANY_PKv1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>9526182B-77E4-4021-BDD9-12C48CBB65B8</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259D7293-D1D6-8B22-185C-A813FBBBAC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

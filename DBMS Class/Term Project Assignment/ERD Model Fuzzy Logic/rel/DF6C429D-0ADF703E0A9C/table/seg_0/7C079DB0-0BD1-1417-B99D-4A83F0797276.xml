@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C079DB0-0BD1-1417-B99D-4A83F0797276" name="DEPARTMENTv1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>A288D2FE-998C-C8A7-0CC2-ED77A34AB48D</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dept_DeparmentID_PK" id="0116EF78-9256-907A-E97B-773E048951CD">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>C35B9DF1-A2D3-1F25-CE3C-465EF2D0A455</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_Name" id="D9C1C2CC-6770-EF02-1972-6371F63588B3">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>7B9F36BD-65FE-41F2-AC91-1601F141B45E</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_Man_ManagerID_PK" id="5B285DEF-582B-D4AF-28EC-90A531BAF505">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>573921C7-441E-80A2-8F62-EC6A8B72A9E0</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24C2291B-8565-1922-4976-E0CC28746562" referredColumn="0A5022DE-FCD3-4587-D58D-84CB7172E9C6"/>
+</associations>
+</Column>
+<Column name="STATION_Stn_StationID_PK" id="AF6719BB-F62D-7C63-FADF-3F6D051A7FEC">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>261E3C16-4454-8957-215B-478C4C2144CE</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<reference>true</reference>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="130F55EA-EED1-8595-A3BB-E202176C8F52" referredColumn="799F734E-5BF7-F9A1-C141-0333E7DD8725"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F28AF4C-6BE6-468F-E00F-88B94D438934" name="DEPARTMENT_PKv1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>E72D19C4-C49D-A1D1-D102-0C63C141D5C1</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0116EF78-9256-907A-E97B-773E048951CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69B491F8-87EC-BEC1-5857-5F5994C460B8" name="DEPARTMENT__IDX">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B285DEF-582B-D4AF-28EC-90A531BAF505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90840BEC-CCF6-6163-685B-72A2C63B58F4" name="DEPARTMENT_STATION_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>0DF1CAA5-DE1C-7D33-FC7C-9755AE1D0275</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF6719BB-F62D-7C63-FADF-3F6D051A7FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67FEA392-31A2-78C6-F351-E986E8B48BC2" name="DEPARTMENT_MANAGER_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 03:15:14 UTC</createdTime>
+<generatorID>5880BF84-9585-2371-DD3B-E50BE380162E</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B285DEF-582B-D4AF-28EC-90A531BAF505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

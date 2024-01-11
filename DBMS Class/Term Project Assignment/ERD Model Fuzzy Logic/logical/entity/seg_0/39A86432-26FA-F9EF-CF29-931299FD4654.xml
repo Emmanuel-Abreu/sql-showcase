@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39A86432-26FA-F9EF-CF29-931299FD4654" name="INTERNET_STATION">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-06 02:16:45 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IS_InternetStation_ID_PK" id="DF500EFA-C2A6-7E81-00F1-65A892A911A4">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-06 02:18:20 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS_Name" id="A7AB735A-93E0-DF4C-06AB-AD7DE46BD110">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-06 02:18:48 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6D98F6E-DDE6-8836-1558-6953F1E564FE" name="InternetStation PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-06 03:03:10 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF500EFA-C2A6-7E81-00F1-65A892A911A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

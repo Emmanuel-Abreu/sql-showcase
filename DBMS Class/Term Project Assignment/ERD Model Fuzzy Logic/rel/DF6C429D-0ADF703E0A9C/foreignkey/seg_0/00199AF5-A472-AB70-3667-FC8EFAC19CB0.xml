@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00199AF5-A472-AB70-3667-FC8EFAC19CB0" containerWithKeyObject="FE36001A-E555-090E-2E0B-3DF00F1E643B" localFKIndex="7278C089-D19E-D3E8-4B89-DC9744BA351E" name="ROYALTY_PAYMENT_ARTIST_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>FBB08443-F174-8322-2937-249719646372</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<referredTableLongName>ARTIST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF5DDB32-7AE2-D17D-FD6C-F8E79BF3F56B</referredTableID>
+<keyObject>2074E516-4CB1-307A-265F-595D5ACE9082</keyObject>
+<referredKeyID>2074E516-4CB1-307A-265F-595D5ACE9082</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Art_ArtistID_PK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

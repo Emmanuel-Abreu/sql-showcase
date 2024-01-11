@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="managesv2" directorySegmentName="seg_0" id="5880BF84-9585-2371-DD3B-E50BE380162E">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-07 02:50:55 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<sourcePk>F8F9E8C4-AF19-2A89-2159-8B082ACF8D97</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EBCB00E1-5AEB-77E5-1C89-6B99FAC4DF8D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A288D2FE-998C-C8A7-0CC2-ED77A34AB48D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

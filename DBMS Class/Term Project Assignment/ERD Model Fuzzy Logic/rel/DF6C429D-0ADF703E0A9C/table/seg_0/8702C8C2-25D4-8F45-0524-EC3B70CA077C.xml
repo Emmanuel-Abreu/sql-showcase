@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8702C8C2-25D4-8F45-0524-EC3B70CA077C" name="COMPANY">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:38:48 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Com_CompanyID_PK" id="CABE5D9A-4D98-B906-0F16-6960E19411CF">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:43:15 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Com_Name" id="427C2D91-FDC8-EF88-AA6D-F2A2B7184B12">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:46:58 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AFC24AF-2C75-282E-2AED-AC32579A2FFA" name="COMPANY_PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:43:15 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CABE5D9A-4D98-B906-0F16-6960E19411CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

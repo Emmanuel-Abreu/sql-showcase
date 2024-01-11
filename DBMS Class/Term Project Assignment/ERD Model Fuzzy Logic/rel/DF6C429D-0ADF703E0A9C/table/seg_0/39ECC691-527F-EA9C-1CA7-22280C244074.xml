@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39ECC691-527F-EA9C-1CA7-22280C244074" name="SEGMENTv1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:28:33 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seg_SegmentID_PK" id="7ED4E815-CF5B-7FC0-20C0-BA254C75BCDD">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:41:37 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seg_SegmentNum" id="694DD3D7-653A-0EC4-6A22-01127266949D">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 17:57:52 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seg_Name" id="6E70386D-A9EC-A486-8A95-B94AD6CBEBC6">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 18:00:12 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42E98F1F-06AF-2377-08BC-DB054BEACCAF" name="SEGMENT_PKv1">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 15:41:50 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ED4E815-CF5B-7FC0-20C0-BA254C75BCDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

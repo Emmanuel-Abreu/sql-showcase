@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8E7CEA8-52E8-5790-A907-9E09136F2040" containerWithKeyObject="89546555-1F40-5DC5-9EA8-562CE3D24B73" localFKIndex="66EA363E-D940-9BC2-BC11-C7D130C8B9B3" name="PLAYLIST_STATION_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>8FD93C5D-5A4B-F408-7960-E1B14FC4367C</generatorID>
+<notes><![CDATA[can play on]]></notes>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<referredTableLongName>STATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>382DDEA8-3149-A8DB-85DB-71E66932F674</referredTableID>
+<keyObject>823DC4EC-1BB6-7CD4-CB44-9CB4B81F5B6B</keyObject>
+<referredKeyID>823DC4EC-1BB6-7CD4-CB44-9CB4B81F5B6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Stn_StationID_PK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

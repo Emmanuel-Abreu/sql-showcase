@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0994FAB7-E18E-785A-4556-34C0C5B7C65F" containerWithKeyObject="169D1B2C-0525-2BE6-F2BD-45FF33E045FD" localFKIndex="DDCBCB73-1789-2E4F-0657-2DAC277ABBED" name="SEGMENT_AD_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>579EA98E-3051-3184-653C-481F901E9928</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<referredTableLongName>AD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CA4F6DB-DE8A-09D2-6E11-87C59C319C9E</referredTableID>
+<keyObject>08AB4121-369B-C730-B32E-72C7084636F9</keyObject>
+<referredKeyID>08AB4121-369B-C730-B32E-72C7084636F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ad_AdID_PK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

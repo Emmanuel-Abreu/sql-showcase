@@ -1,0 +1,64 @@
+CIS 251 Final Project Instructions
+Fall 2020
+
+CIS 251 Final Project Instructions
+Fall 2020
+
+The final project is to write SQL to enhance the JLDB database. The project includes writing SQL as well as using PL/SQL.
+1.	Create an audit table which will be populated each time a books retail price or cost is changed. The name, what fields you include in the audit table and it’s intended use are for you to determine.
+
+DROP TABLE books_audit_table CASCADE CONSTRAINTS;
+DROP TRIGGER books_update_trig;
+
+CREATE TABLE books_audit_table
+(
+  ISBN VARCHAR2(10),
+  title VARCHAR2(30),
+  retail NUMBER(5, 2),
+  cost NUMBER(5, 2),
+  description VARCHAR2(20)
+);
+
+2.	Create a trigger to populate the audit table described above
+
+CREATE OR REPLACE TRIGGER books_update_trig 
+BEFORE
+UPDATE OF retail, cost ON books
+FOR EACH ROW
+BEGIN
+  IF UPDATING ('retail') THEN
+    INSERT INTO books_audit_table(ISBN, title, retail, cost, description) VALUES(:OLD.ISBN, :OLD.title, :NEW.retail, :NEW.cost, 'Retail value changed');
+  ELSIF UPDATING ('cost') THEN
+    INSERT INTO books_audit_table(ISBN, title, retail, cost, description) VALUES(:OLD.ISBN, :OLD.title, :NEW.retail, :NEW.cost, 'Cost value changed');
+  END IF;
+END;
+/
+
+3.	Create a function which returns the average retail price of all books in the books table
+
+CREATE OR REPLACE FUNCTION avg_price
+RETURN NUMBER
+IS
+  AP NUMBER := 0;
+BEGIN
+  SELECT AVG(retail) INTO AP FROM books;
+  RETURN AP;
+END AVG_PRICE;
+/
+
+4.	Create a procedure which utilizes a cursor to update the retail price of all books in the books by a given percentage
+Each problem is worth 25% of the final project grade.
+
+CREATE OR REPLACE PROCEDURE update_audit_table()
+IS
+
+BEGIN
+
+END;
+/jjhhh
+--Sample Data
+
+SELECT * FROM books_audit_table;
+UPDATE books SET retail = ;
+UPDATE books SET  cost = ;
+SELECT * FROM books_audit_table;

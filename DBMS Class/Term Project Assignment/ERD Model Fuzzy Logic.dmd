@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD Model Fuzzy Logic" id="A8664DD1-754F-4E3C-607D-EB06056BF121" version="3.5">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-05 23:46:12 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A8664DD1-754F-4E3C-607D-EB06056BF121</designId>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E6828640-0CE1-B2DD-2D04-824A9C79404F" mainViewID="6ACA708E-D7DD-7A32-1A2D-4F2EFEBC6BAC">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-11-05 23:46:12 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

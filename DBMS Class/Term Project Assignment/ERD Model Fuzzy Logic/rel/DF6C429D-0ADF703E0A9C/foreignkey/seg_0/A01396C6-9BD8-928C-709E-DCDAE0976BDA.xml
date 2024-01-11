@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A01396C6-9BD8-928C-709E-DCDAE0976BDA" containerWithKeyObject="5058139B-5B06-0AB7-631E-41930EE40D09" localFKIndex="C98C1B8D-0ABA-1EDA-FFDD-580B0A75F5A8" name="INTERNET_STATION_STATION_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>5A1EA133-8F6D-1A69-0065-23D3973D4B8B</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<referredTableLongName>STATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>382DDEA8-3149-A8DB-85DB-71E66932F674</referredTableID>
+<keyObject>823DC4EC-1BB6-7CD4-CB44-9CB4B81F5B6B</keyObject>
+<referredKeyID>823DC4EC-1BB6-7CD4-CB44-9CB4B81F5B6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Stn_StationID_PK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>C8D41FD3-72F2-5655-915D-3789D09FE7DD</discriminatorColumn>
+<discriminatorValue>INTERNET_STATION</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

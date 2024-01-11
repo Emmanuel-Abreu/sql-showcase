@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E90454C3-7472-FA1C-7A6B-84D1B4696FAD" name="PLAYLIST_LOG">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>82BC5B2C-007F-8B92-0471-7BA76E303379</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAYLIST_Play_PlaylistID_PK" id="3AC6CF53-E2A8-0CC5-B711-096B84B27B6F">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>A706C855-EC98-618C-A0DC-90F614D064A3</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF3D3054-9D40-4E76-805A-5665F71C6AC3" referredColumn="A2BE4F0C-ABF2-AB6C-B7A4-19C210C093F7"/>
+</associations>
+</Column>
+<Column name="STATION_Stn_StationID_PK" id="60A4E7B4-B098-60A9-75C1-68B77735F4C2">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>F849E8B4-C655-409B-0F37-7C74731710AC</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="317E5730-AF08-174D-6861-A5AE6E21A79F" referredColumn="CE64912F-9902-97C1-CCD0-409508A3FBB3"/>
+</associations>
+</Column>
+<Column name="Play_Playlist_LogID_PK" id="7301F26F-4359-082B-11FE-9AEC8D25106D">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>62606565-7A56-516F-3DC4-C84DEADBA562</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Play_Timestamp" id="5CA12E31-4030-3363-4D6E-1D8A00AA2D2E">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>3CBADA93-7CB2-5F51-AA89-024385F58C51</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DE8BA80-DD5D-A1FA-56FE-4BFBFBD86E2A" name="PLAYLIST_LOG_PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>2035FDF6-0094-1A89-7EFB-8B2175179DCB</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7301F26F-4359-082B-11FE-9AEC8D25106D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70D3BB8-2260-D937-8CFF-A24717B30481" name="PLAYLIST_LOG__IDX">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A52819EB-8230-9F73-A0F6-ED30E33785D3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3AC6CF53-E2A8-0CC5-B711-096B84B27B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A84D8ED-152B-B6AF-B727-B20FB7C7B95C" name="PLAYLIST_LOG_PLAYLIST_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>A52819EB-8230-9F73-A0F6-ED30E33785D3</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AC6CF53-E2A8-0CC5-B711-096B84B27B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AE8100C-B2CD-E749-851C-30CD9AA87EC5" name="PLAYLIST_LOG_STATION_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>45573EFC-6C69-450D-6FB1-DEA9883BD916</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60A4E7B4-B098-60A9-75C1-68B77735F4C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF291202-6F08-2DC2-76AB-B030A6AA9068" name="MANAGER">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 21:52:42 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DE7D4F9B-1A25-F03A-140E-33AB9802A815</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Man_ManagerID_PK" id="7890AA99-BF67-E426-1C4E-3968DD28719A">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 22:01:01 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_DeparmentID_PK" id="4CB678CF-4FB1-CB28-ED4C-30B11A83A83B">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 22:01:57 UTC</createdTime>
+<generatorID>E6A918B5-F2F9-689B-7442-EC1CCEF8C7A9</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<referedAttribute>C35B9DF1-A2D3-1F25-CE3C-465EF2D0A455</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EF9DF69-F523-311B-BFBE-723A0859F1A1" name="Managerv2 PK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 22:01:39 UTC</createdTime>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<engineerTo>
+<item key="DF6C429D-DC43-0953-326F-0ADF703E0A9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7890AA99-BF67-E426-1C4E-3968DD28719A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

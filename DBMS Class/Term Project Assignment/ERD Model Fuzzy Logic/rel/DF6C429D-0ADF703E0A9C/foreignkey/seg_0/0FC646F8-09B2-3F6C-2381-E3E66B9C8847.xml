@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FC646F8-09B2-3F6C-2381-E3E66B9C8847" containerWithKeyObject="7D581588-022C-DC08-6A59-208F11414969" localFKIndex="0CCD1D87-9C4B-A8F8-8EA9-9A8E65E9F4B3" name="MANAGER_DEPARTMENT_FK">
+<createdBy>Emmanuel</createdBy>
+<createdTime>2020-12-10 23:24:32 UTC</createdTime>
+<generatorID>E6A918B5-F2F9-689B-7442-EC1CCEF8C7A9</generatorID>
+<ownerDesignName>ERD Model Fuzzy Logic</ownerDesignName>
+<referredTableLongName>DEPARTMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>286DCBE4-C74A-BCBD-1EE5-B0107F0F631C</referredTableID>
+<keyObject>4176BD55-8CAD-A986-F52F-2CF9EC28B5D1</keyObject>
+<referredKeyID>4176BD55-8CAD-A986-F52F-2CF9EC28B5D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Dept_DeparmentID_PK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
